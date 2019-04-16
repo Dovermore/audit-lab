@@ -10,6 +10,7 @@ import ids
 import OpenAuditTool
 import syn1
 import syn2
+import syn3
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -74,6 +75,8 @@ def dispatch(e, args):
         syn1.generate_syn_type_1(e, args)
     elif args.syn_type == '2':
         syn2.generate_syn_type_2(e, args)
+    elif args.syn_type == '3':
+        syn3.generate_syn_type_3(e, args)
     else:
         logger.info("Illegal syn_type:", args.syn_type)
 

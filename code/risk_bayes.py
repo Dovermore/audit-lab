@@ -304,6 +304,7 @@ def compute_risk(e, mid, sn_tcpra, trials=None):
 
     risk = wrong_outcome_count / e.n_trials
     e.risk_tm[e.stage_time][mid] = risk
+
     return risk
 
 

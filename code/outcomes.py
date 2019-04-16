@@ -15,7 +15,7 @@ An outcome is always a *tuple* of ids, even if there is only one winner.
 
 
 import ids
-
+import rcv
 
 
 def compute_tally(vec):
@@ -53,7 +53,7 @@ def plurality(e, cid, tally):
     return max_vote
 
 
-def approval(e,cid,tally):
+def approval(e, cid, tally):
     """
     {("Alice","Bob"):3,("Alice"):2,("Eve"):1,():4}
     """
@@ -64,10 +64,37 @@ def approval(e,cid,tally):
             if candidate in approval_tally.keys():
                 approval_tally[candidate] = approval_tally[candidate] + count
             else:
-                approval_tally[candidate] =  count
-    fixed_approval_tally = {(k,) : approval_tally[k] for k in approval_tally.keys() }
+                approval_tally[candidate] = count
+    fixed_approval_tally = {(k,): approval_tally[k] for k in approval_tally.keys()}
     outcome = plurality(e,cid,fixed_approval_tally)
     return outcome
+
+
+def IRV(e, cid, tally):
+    """
+    Handling basic IRV voting.
+    :param e: Election object
+    :param cid: contest id
+    :param tally: The tally of ballots
+    :return: (winner, )
+    """
+    # For preferential voting, the tally should be:
+    # {("1-a", "3-b", "2-c"): count ... }
+    # Preprocess the format to the required format for rcv.py
+    # {("a", "c", "b"): count ... }
+
+    ordered_tally = {}
+    for vote in tally:
+        ordered_vote: str = sorted(vote)
+        ordered_candidates = []
+        for rank_candidate in ordered_vote:
+            next_rank, candidate = rank_candidate.split("-")
+            ordered_candidates.append(candidate)
+        ordered_candidates = tuple(ordered_candidates)
+        ordered_tally[ordered_candidates] = tally[vote]
+    tie_breaker = []
+    # return rcv.rcv_winner(ordered_tally, tie_breaker, False)
+    return rcv.rcv_winner(ordered_tally, tie_breaker, False),
 
 
 def compute_ro_c(e):
@@ -90,6 +117,8 @@ def compute_outcome(e, cid, tally):
         return plurality(e, cid, tally)
     elif e.contest_type_c[cid].lower()=="approval":
         return approval(e, cid, tally)
+    elif e.contest_type_c[cid].lower()=="irv":
+        return IRV(e, cid, tally)
     else:
         # TBD: IRV, etc...
         raise NotImplementedError(("Non-plurality outcome rule {} for contest {}"

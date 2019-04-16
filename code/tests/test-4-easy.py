@@ -34,7 +34,7 @@ def test_4_easy():
         OpenAuditTool_args.election_dirname = '4-easy'
         OpenAuditTool_args.election_name = '4-easy'
         OpenAuditTool_args.elections_root = './elections'
-        OpenAuditTool_args.set_audit_seed =  42
+        OpenAuditTool_args.set_audit_seed = 42
         OpenAuditTool_args.read_election_spec = False
         OpenAuditTool_args.read_reported = False
         OpenAuditTool_args.make_audit_orders = False
@@ -49,3 +49,7 @@ def test_4_easy():
         OpenAuditTool_args.use_discrete_rm = False
         OpenAuditTool_args.pick_county_func = "round_robin"
         cli_OpenAuditTool.dispatch(e, OpenAuditTool_args)
+
+
+if __name__ == "__main__":
+    test_4_easy()
