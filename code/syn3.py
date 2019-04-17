@@ -166,11 +166,12 @@ def shuffle_votes(e, synpar):
                 debug_path = path.join(".", "debug")
                 if not path.exists(debug_path):
                     os.makedirs(debug_path)
-                    debug_filepath = path.join(debug_path,
-                                               e.election_name+".csv")
-                    with csv.writer(open(debug_filepath)) as csv_writer:
-                        for pair in L:
-                            csv_writer.writerow(pair)
+                debug_filepath = path.join(debug_path,
+                                           e.election_name+".csv")
+                with open(debug_filepath, "w") as csv_writer:
+                    csv_writer = csv.writer(csv_writer)
+                    for pair in L:
+                        csv_writer.writerow(pair)
 
 ##############################################################################
 ##

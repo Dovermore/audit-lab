@@ -1,5 +1,4 @@
 from multiprocessing import Process, Pool, pool
-from simulations.irvedge import irv_edge
 from datetime import datetime
 from os import path
 import os
@@ -7,6 +6,8 @@ from csv_readers import read_csv_file
 from collections import defaultdict as dd
 from utils import greatest_name
 import sys
+sys.path.append(".")
+from simulations.irvedge import irv_edge
 import csv
 
 

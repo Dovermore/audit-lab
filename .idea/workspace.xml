@@ -3,689 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a721159c-2c7c-4764-8ed9-b4d36b82cc24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2018-rcv-audits/maine-rcv-code/v1-ballot-list-based/rcv.py" beforeDir="false" afterPath="$PROJECT_DIR$/../2018-rcv-audits/maine-rcv-code/v1-ballot-list-based/rcv.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/audit-lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/audit-lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/cli_syn.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/cli_syn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/csv_writers.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/csv_writers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/risk_bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/risk_bayes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/simulations/parallel_edge.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/simulations/parallel_edge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/syn3.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/syn3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/tests/irvedge.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/simulations/irvedge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/tests/parallel_edge.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/simulations/parallel_edge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-0/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-1/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-07.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-07.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-07.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-2/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-49.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-15.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-42.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-09.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-49.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-15.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-42.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-09.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-29.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-23.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-49.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-42.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-09.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-02.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-3/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-29.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-57.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-24.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-57.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-24.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-4/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-5/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-6/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-14.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-41.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-08.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-22.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-14.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-41.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-08.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-33.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-04.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-22.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-41.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-08.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-33.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-01.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-7/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-28.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-14.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-41.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-08.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-37.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-31.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-23.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-14.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-41.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-08.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-02.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-28.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-56.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-11.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-37.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-04.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-31.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-56.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-23.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-41.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-08.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-02.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-8/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-28.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/1-election-spec/election-spec-collections.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/1-election-spec/election-spec-contest-groups.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/1-election-spec/election-spec-contests.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/1-election-spec/election-spec-general.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/2-reported/21-reported-ballot-manifests/manifest-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/2-reported/23-reported-outcomes.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/31-audit-spec/audit-spec-collection-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/31-audit-spec/audit-spec-contest-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/31-audit-spec/audit-spec-global-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/31-audit-spec/audit-spec-seed-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/32-audit-orders/audit-order-AllBallots-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/33-audited-votes/audited-votes-AllBallots.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-07.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-collection-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-17-48.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-18.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-18-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-19-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-05.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-32.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-20-58.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-25.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-21-50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-17.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-22-45.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-23-38.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-07.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-24-34.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-contest-status-2019-04-16-14-25-03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-0000-00-00-00-00-00.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-17-48.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-18.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-18-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-12.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-19-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-05.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-32.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-20-58.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-25.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-21-50.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-22-45.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-13.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-23-38.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-07.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/irv-edge-9/3-audit/34-audit-output/audit-output-saved-state-2019-04-16-14-24-34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/1-irv/actual.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/1-irv/actual.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/1-irv/meta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/1-irv/meta.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/1-irv/reported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/1-irv/reported.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-0/actual.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/20-pathological/actual.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-0/meta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/20-pathological/meta.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-0/reported.csv" beforeDir="false" afterPath="$PROJECT_DIR$/elections/syn3_specs/20-pathological/reported.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-1/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-1/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-1/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-2/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-2/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-2/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-3/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-3/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-3/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-4/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-4/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-4/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-5/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-5/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-5/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-6/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-6/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-6/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-7/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-7/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-7/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-8/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-8/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-8/reported.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-9/actual.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-9/meta.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elections/syn3_specs/irv-edge-9/reported.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -696,16 +15,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/audit_lab$syn_type2_4___1.coverage" NAME="syn type2 4 - 1 Coverage Results" MODIFIED="1555362811798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$test_2_irvedge.coverage" NAME="test-2-irvedge Coverage Results" MODIFIED="1555379057902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/audit_lab$syn_type2_4.coverage" NAME="syn type2 4 Coverage Results" MODIFIED="1555362884544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/audit_lab$syn_type2_1.coverage" NAME="syn type2 1 Coverage Results" MODIFIED="1555362272288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$parallel_20_pathological.coverage" NAME="parallel_20_pathological Coverage Results" MODIFIED="1555462746528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$parallel_simple.coverage" NAME="parallel_simple Coverage Results" MODIFIED="1555412497993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$parallel_edge.coverage" NAME="parallel_edge Coverage Results" MODIFIED="1555413973716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/audit_lab$parallel_20_pathological__1_.coverage" NAME="parallel_20_pathological (1) Coverage Results" MODIFIED="1555519917033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/audit_lab$parallel_plurality.coverage" NAME="parallel_plurality Coverage Results" MODIFIED="1555450761362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/audit_lab$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1555389611103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/audit_lab$syn_type2_4.coverage" NAME="syn type2 4 Coverage Results" MODIFIED="1555362884544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/audit_lab$syn_type2_1.coverage" NAME="syn type2 1 Coverage Results" MODIFIED="1555362272288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$syn_type3_1.coverage" NAME="syn type3 1 Coverage Results" MODIFIED="1555373365079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$test_irv1.coverage" NAME="test-irv1 Coverage Results" MODIFIED="1555374923182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/audit_lab$syn.coverage" NAME="syn Coverage Results" MODIFIED="1555361953847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/audit_lab$parallel_plurality.coverage" NAME="parallel_plurality Coverage Results" MODIFIED="1555450761362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
-    <SUITE FILE_PATH="coverage/audit_lab$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1555389611103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
   <component name="DockManager">
     <window id="1">
@@ -753,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/syn3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
+            <state relative-caret-position="161">
+              <caret line="158" column="50" lean-forward="true" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
               <folding>
                 <element signature="e#215#226#0" expanded="true" />
               </folding>
@@ -765,11 +85,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/simulations/parallel_edge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-91">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/audit_orders.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="935">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -797,9 +129,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Total cast for each vote for each cid</find>
-      <find>rn_cpr</find>
-      <find>rv_cpb</find>
       <find>Total number of ballots sampled:</find>
       <find>Number of trials used to estimate risk</find>
       <find>max_num_it</find>
@@ -826,7 +155,10 @@
       <find>100000</find>
       <find>dispatch ar</find>
       <find>params_c</find>
+      <find>debug</find>
       <find>B</find>
+      <find>.writer</find>
+      <find>&quot;('1-B',)&quot;,&quot;('1-C',)&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -856,7 +188,6 @@
         <option value="$PROJECT_DIR$/code/tests/irvedge.py" />
         <option value="$PROJECT_DIR$/code/tests/parallel_edge.py" />
         <option value="$PROJECT_DIR$/code/utils.py" />
-        <option value="$PROJECT_DIR$/code/simulations/parallel_edge.py" />
         <option value="$PROJECT_DIR$/elections/syn3_specs/20-pathological/actual.csv" />
         <option value="$PROJECT_DIR$/elections/syn3_specs/20-pathological/reported.csv" />
         <option value="$PROJECT_DIR$/code/risk_bayes.py" />
@@ -868,6 +199,8 @@
         <option value="$PROJECT_DIR$/code/simulations/irvedge.py" />
         <option value="$PROJECT_DIR$/code/cli_syn.py" />
         <option value="$PROJECT_DIR$/elections/syn3_specs/20-pathological/meta.csv" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/code/simulations/parallel_edge.py" />
         <option value="$PROJECT_DIR$/code/syn3.py" />
       </list>
     </option>
@@ -895,6 +228,11 @@
               <item name="audit-lab" type="b2602c69:ProjectViewProjectNode" />
               <item name="audit-lab" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="audit-lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="audit-lab" type="462c0819:PsiDirectoryNode" />
+              <item name="debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="audit-lab" type="b2602c69:ProjectViewProjectNode" />
@@ -993,7 +331,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parallel_20_pathological">
+  <component name="RunManager" selected="Python.parallel_20_pathological (1)">
+    <configuration name="parallel_20_pathological (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="audit-lab" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/simulations/parallel_edge.py" />
+      <option name="PARAMETERS" value="1 pathological-20- 20-pathological" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="parallel_20_pathological" type="PythonConfigurationType" factoryName="Python">
       <module name="audit-lab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -1242,6 +602,7 @@
       <item itemvalue="Python.syn type3 1" />
       <item itemvalue="Python.parallel_simple" />
       <item itemvalue="Python.parallel_20_pathological" />
+      <item itemvalue="Python.parallel_20_pathological (1)" />
       <item itemvalue="Python.parallel_plurality" />
       <item itemvalue="Python.syn type2 4" />
       <item itemvalue="Python.test-irv1" />
@@ -1271,12 +632,12 @@
       <updated>1555355589350</updated>
       <workItem from="1555355590820" duration="26314000" />
       <workItem from="1555407434739" duration="8533000" />
-      <workItem from="1555429880701" duration="7004000" />
+      <workItem from="1555429880701" duration="8863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41851000" />
+    <option name="totallyTimeSpent" value="43710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1289,6 +650,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187434" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1341,27 +703,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/rcv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/csv_readers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/election_spec.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2254" />
@@ -1471,16 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/simulations/parallel_edge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1634,16 +965,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/cli_syn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#49#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elections/syn3_specs/20-pathological/reported.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="15">
@@ -1678,16 +999,6 @@
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/syn3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
-          <folding>
-            <element signature="e#215#226#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elections/04172019105907pathological-20-31/2-reported/22-reported-cvrs/reported-cvrs-AllBallots.csv">
@@ -1728,10 +1039,63 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/simulations/parallel_edge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/audit_orders.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="71" column="25" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="935">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/cli_syn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#49#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug/04182019024740pathological-20-0.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug/04182019025157pathological-20-0.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="165">
+          <caret line="1953" column="21" selection-start-line="1953" selection-end-line="1953" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/syn3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="158" column="50" lean-forward="true" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="50" />
+          <folding>
+            <element signature="e#215#226#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
