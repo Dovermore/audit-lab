@@ -79,8 +79,7 @@ def greatest_name(dirpath,
         "zeb-12-12.csv" .
 
     """
-
-    if max_label == None:
+    if max_label is None:
         max_filename = None
     else:
         max_filename = os.path.join(dirpath, startswith, max_label, endswith)

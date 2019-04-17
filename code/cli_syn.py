@@ -48,8 +48,6 @@ def parse_args():
     return args
 
 
-
-
 def dispatch(e, args):
 
     e.election_dirname = ids.filename_safe(args.election_dirname)
@@ -58,7 +56,8 @@ def dispatch(e, args):
     dirpath = os.path.join(OpenAuditTool.ELECTIONS_ROOT, e.election_dirname)
 
     if os.path.exists(dirpath):
-        warnings.warn("Erasing previous contents of directory {}.".format(dirpath))
+        warnings.warn("Erasing previous contents of directory {}."
+                      .format(dirpath))
         subdirs = ["1-election-spec",
                    "2-reported",
                    "3-audit"]
@@ -67,9 +66,6 @@ def dispatch(e, args):
             if os.path.exists(dirpathx):
                 shutil.rmtree(dirpathx)
                 warnings.warn("Directory {} erased.".format(dirpathx))
-
-    # debug
-    print("dispatch args:", type(args), str(args))
 
     if args.syn_type == '1':
         syn1.generate_syn_type_1(e, args)

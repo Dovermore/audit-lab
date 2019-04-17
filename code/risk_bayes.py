@@ -334,6 +334,7 @@ def compute_slack_p(e):
             slack_p[pbcid] -= e.sn_tcpr[e.stage_time][cid][pbcid][rv]
     return slack_p
 
+
 def compute_risk_with_tweak(e, mid, slack_p, tweak_p, trials):
     """
     Return computed risk for given mid 

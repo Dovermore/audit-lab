@@ -12,17 +12,23 @@ In support of OpenAuditTool.py audit support program.
 import copy
 import logging
 import numpy as np
-import os
 
 import OpenAuditTool
 import csv_readers
 import audit_orders
 import utils
 import csv_writers
+import csv
+
+import os
+from os import path
+
+import time
 
 # logging.basicConfig(level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+DEBUG = True
 
 
 def process_spec(e, synpar, meta, actual, reported):
@@ -56,7 +62,7 @@ def process_spec(e, synpar, meta, actual, reported):
     """
 
     # Store the election meta data
-    for cid, pbcid, ro_c, audit_rate in meta:
+    for cid, pbcid, ro_c, audit_rate, contestants in meta:
         logger.info("Meta:    %s %s %s %s", cid, pbcid, ro_c, audit_rate)
 
         # Record contest
@@ -71,8 +77,8 @@ def process_spec(e, synpar, meta, actual, reported):
             e.mids.append(mid)
             e.cid_m[mid] = cid
             e.risk_method_m[mid] = "Bayes"
-            e.risk_limit_m[mid] = 0.05
-            e.risk_upset_m[mid] = 0.98
+            e.risk_limit_m[mid] = 0.025
+            e.risk_upset_m[mid] = 0.975
             e.sampling_mode_m[mid] = "Active"
             e.initial_status_m[mid] = "Open"
             e.risk_measurement_parameters_m[mid] = ("", "")
@@ -91,14 +97,22 @@ def process_spec(e, synpar, meta, actual, reported):
             e.max_audit_rate_p[pbcid] = int(audit_rate)
             e.comments_pb[pbcid] = {}
 
+        # Add all combinations of selections to the selection pool
+        for contestant in contestants:
+            selids = [str(i)+"-"+contestant for i
+                      in range(1, len(contestants)+1)]
+            for selid in selids:
+                if selid not in e.selids_c[cid]:
+                    e.selids_c[cid][selid] = True
+
     for (cid, pbcid, num, av) in actual:
         logger.info("actual    %s %s %s %s", cid, pbcid, av, num)
 
         # When a row is not given specifying contest and winner
         # record the selection id for that vote
-        for selid in av:
-            if selid not in e.selids_c[cid]:
-                e.selids_c[cid][selid] = True
+        # for selid in av:
+        #     if selid not in e.selids_c[cid]:
+        #         e.selids_c[cid][selid] = True
 
         # Record votes
         for pos in range(1, int(num)+1):
@@ -148,7 +162,15 @@ def shuffle_votes(e, synpar):
                 (rv, av) = L[i]
                 e.rv_cpb[cid][pbcid][bid] = rv
                 e.av_cpb[cid][pbcid][bid] = av
-
+            if DEBUG:
+                debug_path = path.join(".", "debug")
+                if not path.exists(debug_path):
+                    os.makedirs(debug_path)
+                    debug_filepath = path.join(debug_path,
+                                               e.election_name+".csv")
+                    with csv.writer(open(debug_filepath)) as csv_writer:
+                        for pair in L:
+                            csv_writer.writerow(pair)
 
 ##############################################################################
 ##
@@ -157,9 +179,15 @@ def read_meta_csv(e, synpar):
     """
     Read file defining syn3 synthetic election spec.
     """
-
     syn3_pathname = os.path.join(OpenAuditTool.ELECTIONS_ROOT,
                                  "syn3_specs", synpar.election_dirname)
+    try:
+        # Use config dir if properly defined
+        if synpar.config_dirname is not None:
+            syn3_pathname = os.path.join(OpenAuditTool.ELECTIONS_ROOT,
+                                         "syn3_specs", synpar.config_dirname)
+    except NameError:
+        pass
     filename = utils.greatest_name(syn3_pathname,
                                    "meta",
                                    ".csv")
@@ -167,15 +195,17 @@ def read_meta_csv(e, synpar):
     fieldnames = ["Contest",
                   "Collection",
                   "Winner",
-                  "Audit Rate"
+                  "Audit Rate",
+                  "Contestants"
                   ]
     rows = csv_readers.read_csv_file(file_pathname,
                                      fieldnames,
-                                     varlen=False)
+                                     varlen=True)
     return [(row["Contest"],
              row["Collection"],
              (row["Winner"], ),
-             row["Audit Rate"])
+             row["Audit Rate"],
+             row["Contestants"])
             for row in rows]
 
 
@@ -186,6 +216,14 @@ def read_vote_csv(e, synpar, reported=False):
 
     syn3_pathname = os.path.join(OpenAuditTool.ELECTIONS_ROOT,
                                  "syn3_specs", synpar.election_dirname)
+    try:
+        # Use config dir if properly defined
+        if synpar.config_dirname is not None:
+            syn3_pathname = os.path.join(OpenAuditTool.ELECTIONS_ROOT,
+                                         "syn3_specs", synpar.config_dirname)
+    except NameError:
+        pass
+
     filename = utils.greatest_name(syn3_pathname,
                                    "reported" if reported else "actual",
                                    ".csv")
@@ -212,10 +250,10 @@ def generate_syn_type_3(e, args):
     actual_rows = read_vote_csv(e, synpar, False)
     reported_rows = read_vote_csv(e, synpar, True)
     process_spec(e, synpar, meta_rows, actual_rows, reported_rows)
-    e.audit_seed = 1
+    e.audit_seed = int(time.clock() * 100000)
     synpar.RandomState = np.random.RandomState(e.audit_seed)
-
-    # TODO Edit those two
+    # synpar.RandomState = np.random.RandomState()
+    print(f"seed for RandomState: {e.audit_seed}")
     shuffle_votes(e, synpar)
     audit_orders.compute_audit_orders(e)
 
@@ -226,5 +264,3 @@ def generate_syn_type_3(e, args):
             logger.info("    ", vars(e)[key])
 
     csv_writers.write_csv(e)
-
-
