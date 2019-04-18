@@ -6,7 +6,6 @@ from csv_readers import read_csv_file
 from collections import defaultdict as dd
 from utils import greatest_name
 import sys
-sys.path.append(".")
 from simulations.irvedge import irv_edge
 import csv
 
@@ -18,11 +17,12 @@ def simulate(n, election_name="irv-", spec_dir="2-edge"):
     names = [pre_format.format(election_name, i) for i in range(n)]
     spec_dirs = [spec_dir] * n
     arg_pairs = list(zip(names, spec_dirs))
-    with Pool(n) as p:
-        p.starmap(irv_edge, arg_pairs)
-        p.close()
-        p.join()
-    print("fin")
+    # with Pool(n) as p:
+    #     p.starmap(irv_edge, arg_pairs)
+    #     p.close()
+    #     p.join()
+    # print("fin")
+    irv_edge(*arg_pairs[0])
     return prefix
 
 

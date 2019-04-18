@@ -112,7 +112,11 @@ venv.bak/
 .mypy_cache/
 
 # Temp file for elections
-elections/04**
+elections/*
+!elections/syn*_specs
+
+# Debug folder
+debug/*
 
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
