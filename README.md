@@ -1,21 +1,4 @@
-[![Build Status](https://travis-ci.org/evanlimanto/audit-lab.svg?branch=master)](https://travis-ci.org/evanlimanto/audit-lab)
-[![Coverage Status](https://coveralls.io/repos/github/evanlimanto/audit-lab/badge.svg?branch=master)](https://coveralls.io/github/evanlimanto/audit-lab?branch=master)
-
-Note: This repo "audit-lab" was created initially 2017-09-04
-as a copy of
-www.github.com/ron-rivest/2017-bayes-audit/2017-code
-As of 2017-09-04, nothing else has been changed.  It is
-just a copy.  This repo was initialized with the python code
-this README, and some data files.  But it does not contain
-the git history of how it got to this point.  If you are
-interested in that, or more links on Bayesian audits,
-see the original repo (which is public)
-www.github.com/ron-rivest/2017-bayes-audit 
-
-This repo will be used by students in a Fall 2017 UC Berkeley
-course taught by Philip Stark.
-
-Copied material starts here.
+An attempt trying to make this software work for IRV voting.
 
 # Documentation for OpenAuditTool.py (Bayesian audit support program)
 
